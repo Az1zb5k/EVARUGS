@@ -1,0 +1,167 @@
+/* Universal styles */
+body {
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+/* Header */
+header .container {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    gap: 35px;
+}
+
+header a {
+    color: #737373;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Roboto", sans-serif;
+}
+
+header a:hover {
+    background: linear-gradient(to right, #B90160, #2E3192);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: block;
+    transform: scale(1.1);
+}
+
+/* Intro */
+.intro .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro img {
+    width: 45%;
+}
+
+.intro .box {
+    width: 45%;
+}
+
+.intro h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    font-family: "Roboto", sans-serif;
+}
+
+.intro a {
+    background: linear-gradient(to right, #B90160, #2E3192);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+/* Material */
+.materials .boxes {
+    display: flex;
+    gap: 60px;
+}
+
+.materials .material {
+    width: 28%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+}
+
+.materials img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.materials h3,
+.materials p {
+    padding: 0 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.materials p {
+    color: #767676;
+    font-size: 14px;
+}
+
+.materials h2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+.materials h2 span {
+    background: linear-gradient(to right, #B90160, #2E3192);
+    background-clip: text;
+    color: transparent;
+}
+
+/* Comments */
+.comments {
+    margin-top: 100px;
+    background: linear-gradient(to right, #D4145A40, #2E319240);
+    padding: 100px 10px;
+}
+
+.comments .box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comments .comment {
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    padding: 70px 25px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.comments img {
+    position: absolute;
+    left: 50px;
+    top: -90px;
+    transform: translateX(60%);
+}
+
+.comments p {
+    text-align: center;
+    color: #737373;
+    line-height: 26px;
+}
+
+/* Footer */
+footer {
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
