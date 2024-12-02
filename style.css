@@ -251,6 +251,7 @@ footer .container {
     }
 
     .intro h1 {
+        line-height: 30px;
         font-size: 30px;
     }
 
