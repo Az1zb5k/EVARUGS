@@ -143,9 +143,9 @@ header a:hover {
 
 .comments img {
     position: absolute;
-    left: 50px;
+    left: 47.5%;
     top: -90px;
-    transform: translateX(60%);
+    transform: translateX(-50%);
 }
 
 .comments p {
@@ -257,10 +257,6 @@ footer .container {
 
     .intro img {
         display: none;
-    }
-
-    .comments img {
-        transform: translateX(-12%);
     }
 
     footer .container {
