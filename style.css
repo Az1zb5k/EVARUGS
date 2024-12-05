@@ -165,6 +165,80 @@ footer .container {
     justify-content: space-between;
 }
 
+/* Register styles */
+.register {
+    background-image: url("./images/register-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.register .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.register .bg-blur {
+    backdrop-filter: blur(10px);
+}
+
+.register form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    text-align: center;
+    padding: 50px 150px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 8px 24px 0px rgba(229, 16, 112, 0.2);
+}
+
+.register h2 {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.register form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.register input {
+    width: 47%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.register textarea {
+    width: 100%;
+    padding: 10px;
+    height: 40px;
+    margin: 20px 0;
+}
+
+.register button {
+    width: 150px;
+    margin: 0 auto;
+    padding: 10px;
+    background: linear-gradient(to right, #D4145A, #3D5BF5);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.register button:hover {
+    cursor: pointer;
+    background: linear-gradient(to left, #D4145A, #3D5BF5);
+    transform: scale(1.05);
+}
+
 /* Tablet Responsive */
 @media (max-width: 1199px){
     header .container {
@@ -228,6 +302,20 @@ footer .container {
     footer .container {
         padding-bottom: 50px;
     }
+
+    .register form div {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .register input {
+        width: 96%;
+    }
+
+    .register .container {
+        padding: 0 20px;
+    }
 }
 
 /* Mobile Responsive */
@@ -268,4 +356,14 @@ footer .container {
     footer .boxes {
         width: 60%;
     }
+
+    .register h2 {
+        font-size: 23px;
+    }
+
+    .register .container {
+        padding: 0 10px;
+    }
+
+    
 }
